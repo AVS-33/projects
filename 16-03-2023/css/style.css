@@ -1,0 +1,292 @@
+body{
+    background-color: darkcyan;
+}
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(10, 2, 102, 0.75);
+    box-shadow: 2px 2px 2px 2px rgb(109, 106, 106),-2px -4px 2px 2px rgb(109, 106, 106);
+    border-radius: 30px;
+    
+}
+.first{
+    width:90%;
+    height:90%;
+    display: inline-block;
+    margin:2.5%5%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+/* navigation bar */
+.nav{
+    width:100%;
+    height: 70px;
+    display: inline-block;
+}
+.l{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.k{
+    display: inline-block;
+    text-transform: uppercase;
+    color:gold
+}
+.links{
+    display: inline-block;
+    margin-left: 70px;
+}
+.links a{
+    text-decoration: none;
+    padding:10px;
+    font-size:10px;
+    color:black;
+}
+.links a:hover{
+    color:gold;
+    position: relative;
+    top:3px;
+}
+.s1{
+    width:60%;
+    height: 350px;
+    display: inline-block;
+}
+.w{
+    text-transform: uppercase;
+    color:gold;
+    margin-left: 10px;
+    margin-top: 100px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a{
+    font-size:40px;
+    position: relative;
+    top:-45px;
+    left:20px;
+    word-wrap: break-word;
+}
+.a1{
+    position: relative;
+    top:-30px;
+    left: 20px;
+}
+.butto{
+    position: relative;
+    top:-20px;
+    left:20px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+/* .ic{
+    position: relative;
+    top:-15px;
+    left:60px
+} */
+.s2{
+    width:39%;
+    height: 350px;
+    float: right;
+    position: relative;
+    top:50px
+
+}
+.s2 img{
+    width: 100%;
+    height: auto;
+}
+.about{
+    width: 100%;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgb(109, 106, 106),-2px -4px 2px 2px rgb(109, 106, 106);
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+
+}
+.about1{
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+.about1 img{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+.about2{
+    width: 50%;
+    height: 400px;
+    float: left;
+    position: relative;
+    top:70px;
+    left:30px
+}
+.bit{
+    background: rgba(10, 2, 102, 0.75) ;
+    color:white;
+    border-radius: 10px;
+}
+#services{
+width: 100%;
+height: 400px;
+background: rgba(10, 2, 102, 0.75);
+margin-top: 10px;
+border-top-left-radius:20px;
+border-bottom-right-radius: 20px;
+box-shadow: 2px 2px 2px 2px rgb(109, 106, 106),-2px -4px 2px 2px rgb(109, 106, 106);
+}
+.header{
+    display: flex;
+    justify-content:center;
+    margin-top: 2px;
+
+}
+.content{
+    color:white;
+    display: flex;
+    justify-content:center;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+.safe{
+    width:15%;
+    height: 250px;
+   float: left;
+   margin: 10px;
+   margin-top: 50px;
+   margin-left:70px;
+   text-align: center;
+   color:aliceblue
+}
+.h{
+    font-size: 30px;
+    color:aqua
+    
+   
+}
+.mobile{
+    width:15%;
+    height: 250px;
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color:aliceblue
+}
+
+
+.wallet{
+    width:15%;
+    height: 250px;
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color:aliceblue
+}
+
+
+.support{
+    width:15%;
+    height: 250px;
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color:aliceblue
+}
+button{
+    border-radius: 20px;
+}
+#news{
+    width: 95%;
+    height: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(109, 106, 106),-2px -4px 2px 2px rgb(109, 106, 106);
+    margin-top: 10px;
+    padding: 20px;
+    border-style:dotted;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+#news img{
+    width: 30%;
+    box-sizing:border-box ;
+}
+#footer{
+    width: 97%;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    background:  rgba(10, 2, 102, 0.75);
+    margin-top: 10px;
+    border-radius: 17px;
+}
+.title{
+    width:20%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    margin-left: 0px;
+    color:aliceblue;
+    font-family: Verdana Tahoma, sans-serif;
+    box-shadow: 2px 2px 2px 3px rgb(134, 170, 252);
+    padding: 3px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+
+
+}
+.quick{
+    width:20%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+   color:rgb(147, 240, 246);
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif ;
+    text-shadow: 1px 2px 2px black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 3px rgb(112, 110, 110);
+    padding: 3px;
+}
+.quick a{
+    text-decoration: none;
+    color:rgb(123, 189, 239);
+}
+.quick a:hover{
+    color:gold;
+    position: relative;
+    left:10px
+}
+.social{
+    width:20%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif ;
+    text-shadow: 1px 2px 2px black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 3px rgba(12, 118, 231, 0.431);
+    padding: 3px;
+}
+.contact{
+    width:29%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+   color:rgba(255, 127, 80, 0.603)
+}
+.lo{
+    color:rgb(73, 195, 251)
+   
+}
+.foot{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: aqua;
+}
